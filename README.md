@@ -38,7 +38,7 @@ The decoding operation follows this logic:
 
 i = (j % 8) \* 4 + (j / 8)
 
----
+
 
 ### Getting Started
 
@@ -70,39 +70,33 @@ i = (j % 8) \* 4 + (j / 8)
 
 #### **Encoding Commands and Results:**
 
-```plaintext
-**dotnet run -e tacocat**
+
+`**dotnet run -e “tacocat”**`
+
 Result: **\[267487694, 125043731\]**
 
-**dotnet run -e "never odd or even"**
+`**dotnet run -e "never odd or even"**`  
 Result: **\[267657050, 233917524, 234374596, 250875466, 17830160\]**
 
-**dotnet run -e "lager, sir, is regal"** 
+`**dotnet run -e "lager, sir, is regal"**`  
 Result: **\[267394382, 167322264, 66212897, 200937635, 267422503\]**
 
-**dotnet run -e "go hang a salami, I'm a lasagna hog"** 
+`**dotnet run -e "go hang a salami, I'm a lasagna hog"**`  
 Result: **\[200319795, 133178981, 234094669, 267441422, 78666124, 99619077, 267653454, 133178165, 124794470\]**
 
-Command: **dotnet run -e "egad, a base tone denotes a bad age"** 
+`**dotnet run -e "egad, a base tone denotes a bad age"**`  
 Result: **\[267389735, 82841860, 267651166, 250793668, 233835785, 267665210, 99680277, 133170194, 124782119\]**
-```
 
 #### **Decoding Commands and Results:**
 
-```plaintext
-**dotnet run -d "[267487694 125043731]"** 
+`**dotnet run -d "[267487694 125043731]"**`  
 Result: **tacocat**
 
-**dotnet run -d "[267657050 233917524 234374596 250875466 17830160]"** 
+`**dotnet run -d "[267657050 233917524 234374596 250875466 17830160]"**`  
 Result: **never odd or even**
 
-**dotnet run -d "[267394382 167322264 66212897 200937635 267422503]"**
+`**dotnet run -d "[267394382 167322264 66212897 200937635 267422503]"**`  
 Result: **lager, sir, is regal**
-
-**dotnet run -d "[200319795 133178981 234094669 267441422 78666124 99619077 267653454 133178165 124794470]"** 
-Result: **go hang a salami, I'm a lasagna hog**
-
-**dotnet run -d "[267389735 82841860 267651166 250793668 233835785 267665210 99680277 133170194 124782119]"** Result: **egad, a base tone denotes a bad age**
 
 ### **Testing the application**
 
