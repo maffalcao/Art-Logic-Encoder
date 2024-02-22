@@ -70,6 +70,7 @@ i = (j % 8) \* 4 + (j / 8)
 
 #### **Encoding Commands and Results:**
 
+```plaintext
 **dotnet run -e tacocat**
 Result: **\[267487694, 125043731\]**
 
@@ -84,9 +85,11 @@ Result: **\[200319795, 133178981, 234094669, 267441422, 78666124, 99619077, 2676
 
 Command: **dotnet run -e "egad, a base tone denotes a bad age"** 
 Result: **\[267389735, 82841860, 267651166, 250793668, 233835785, 267665210, 99680277, 133170194, 124782119\]**
+```
 
 #### **Decoding Commands and Results:**
 
+```plaintext
 **dotnet run -d "[267487694 125043731]"** 
 Result: **tacocat**
 
@@ -114,3 +117,4 @@ Result: **go hang a salami, I'm a lasagna hog**
     ```plaintext
     dotnet test
     ```
+```
