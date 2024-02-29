@@ -1,4 +1,6 @@
-## Part 1: The Weird Text Format (8-bit)
+## The Art+Logic Programming Challenge
+
+### Part 1: The Weird Text Format (8-bit)
 
   
 A recurring theme in Art+Logic projects is the need to process data that is provided in unusual or proprietary formats, regardless of whether a project is targeting desktop, mobile, embedded, or the web, so asking applicants to demonstrate their ability to work with low-level data formats is a traditional initial step.
@@ -48,7 +50,7 @@ The task for part 1 of this challenge is to write just enough code to unlock the
 ---
 
 
-## Part 2: Weird Text Format-8, Continued
+### Part 2: Weird Text Format-8, Continued
 
 Once again, the scramble/descramble matrix for the protocol looks like this:
 
