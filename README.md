@@ -1,4 +1,4 @@
-## The Art+Logic Programming Challenge
+# The Art+Logic Programming Challenge
 
 ### Part 1: The Weird Text Format (8-bit)
 
